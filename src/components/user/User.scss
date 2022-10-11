@@ -1,0 +1,35 @@
+#user-component{
+
+  .img-avatar{
+    max-height: 180px;
+    height: 180px;
+    width: 180px;
+  }
+  text-align: center;
+  .edit{
+    cursor: pointer;
+   text-align: right;
+    top: -25px;
+    position: relative;
+
+  }
+
+  .no-editable{
+
+    .form-control{
+      text-align: center!important;
+      border: none!important;
+      font-size: calc(1.275rem + .3vw);
+      font-weight: 500;
+      line-height: 1.2;
+    }
+    .form-control:disabled{
+      background-color: transparent;
+    }
+    .btn-outline-secondary{
+      border-radius: 0px;
+      border: none;
+    }
+  }
+
+}

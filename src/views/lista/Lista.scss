@@ -1,0 +1,23 @@
+#lista{
+
+  padding-top: 100px;
+  .user-card{
+    cursor: pointer;
+  }
+
+
+  .loading{
+    width: 200px;
+    height: 200px;
+  }
+  .pagination{
+
+    margin-top: 30px;
+    .page-item{
+      text-align: center;
+    }
+  }
+
+}
+
+
